@@ -35,7 +35,6 @@ with model:
     # x[0] is the new input acceleration
     def calculate_xyz(x):
         return scale_up_deg((x[1])) + ((x[0]))
-        # return ((x[1])) + ((x[0]))
         
     # Connect the integrator to the output ensamble to point the current 
     # location based on the integration
